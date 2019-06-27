@@ -1,6 +1,7 @@
 ---
 title: Bond Portfolio Immunization
 author: Matt Brigida, Ph.D.
+date: June 26, 2019
 output: 
   rmdformats::html_clean:
     highlight: kate
@@ -11,32 +12,20 @@ output:
 ##     collapsed: false
 ##     smooth_scroll: false
 ---
-
-```{r knitr_init, echo=FALSE, cache=FALSE}
+```{r echo=FALSE, cache=FALSE, message=FALSE, warning=FALSE}
 library(knitr)
 library(rmdformats)
-
-## Global options
-options(max.print="75")
-opts_chunk$set(echo=FALSE,
-	             cache=TRUE,
-               prompt=FALSE,
-               tidy=TRUE,
-               comment=NA,
-               message=FALSE,
-               warning=FALSE)
-opts_knit$set(width=75)
 ```
 
 ## Immunize a Bank's Portfolio
 
-Assume a bank has the following (very simplified) balance sheet.  
+Assume a bank has the following (very simplified) balance sheet.
 
 ### Assets
 
 Mortgages
 
--  Fixed rate, 15 year, rate: 8\% 
+-  Fixed rate, 15 year, annual payments, both the coupon rate and yield-to-maturity are 8\% 
 
 -  Floating rate, 15 year, rate: LIBOR + 2%,  (duration = 0)
 
