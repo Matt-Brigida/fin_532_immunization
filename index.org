@@ -1,6 +1,6 @@
 #+title: Bank Portfolio Immunization
 #+author: Matt Brigida, Ph.D.
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
 Assume a bank has the following (very simplified) balance sheet.
 
